@@ -1,0 +1,10 @@
+{
+    "/api": {
+    "target": "http://starlord.hackerearth.com/movies",
+    "secure": false,
+    "pathRewrite": {
+    "^/api": ""
+    },
+    "changeOrigin": true
+    }
+    }
